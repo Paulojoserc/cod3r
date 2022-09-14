@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	livros.push("Don Quixote");
 	livros.push("O Hobbit");
 	
-	System.out.println(livros.peek());
+	System.out.println(livros.peek()); 
 	System.out.println(livros.element());
 	
 	for (String livro : livros) {

@@ -14,7 +14,7 @@ public class Mapa {
 		usuarios.put(4, "Rebeca");
 
 		System.out.println(usuarios.size());
-		System.out.println(usuarios.isEmpty());
+		System.out.println(usuarios.isEmpty());//verificar que esta vazio ou não 
 
 		System.out.println(usuarios.keySet());
 		System.out.println(usuarios.values());
@@ -23,7 +23,9 @@ public class Mapa {
 		System.out.println(usuarios.containsKey(20));
 		System.out.println(usuarios.containsValue("Rebeca"));
 
-		System.out.println(usuarios.get(20));
+		System.out.println(usuarios.get(4));
+		System.out.println(usuarios.remove(1));
+		System.out.println(usuarios.remove(1, "Gui"));
 
 		for (int chave : usuarios.keySet()) {
 			System.out.println(chave);
@@ -34,7 +36,7 @@ public class Mapa {
 		}
 
 		for (Entry<Integer, String> registro : usuarios.entrySet()) {
-			System.out.print(registro.getKey() + " ");
+			System.out.print(registro.getKey() + "==>");
 			System.out.println(registro.getValue());
 		}
 	}
