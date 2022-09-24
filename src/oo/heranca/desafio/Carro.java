@@ -3,14 +3,17 @@ package oo.heranca.desafio;
 public class Carro {
 int velocidadeAtual;
 
-int acelera() {
-	return velocidadeAtual+=5;
+void acelera() {
+	 velocidadeAtual+=5;
 }
-int freia() {
-	if (velocidadeAtual > 0) {
-		return velocidadeAtual -=5;
+void freia() {
+	if (velocidadeAtual >= 5) {
+		 velocidadeAtual -=5;
 	}else  {
-		 return 0;
+		 velocidadeAtual = 0;
 	}
+}
+public String toString() {
+	return "Velocidade atual é "+velocidadeAtual+" KM/h"; 
 }
 }
