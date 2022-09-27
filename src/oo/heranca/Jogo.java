@@ -2,12 +2,12 @@ package oo.heranca;
 
 public class Jogo {
 	public static void main(String[] args) {
-		Monstro mostro = new Monstro();
+		Monstro mostro = new Monstro(0, 0);
 		
 		mostro.x = 10;
 		mostro.y = 10;
 		
-		Heroi heroi = new Heroi();
+		Heroi heroi = new Heroi(0, 0);
 		heroi.x = 10;
 		heroi.y = 11;
 		

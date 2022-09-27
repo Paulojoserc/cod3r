@@ -5,6 +5,12 @@ public class Jogador {
 	int x;
 	int y;
 
+	public Jogador(int x, int y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
+
 	boolean atacar(Jogador oponente) {
 		//Math.abs server para calcular o valor absoluto
 		int deltaX = Math.abs(x - oponente.x);

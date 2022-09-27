@@ -1,6 +1,11 @@
 package oo.heranca;
 
 public class Heroi extends Jogador {
+	public Heroi(int x, int y) {
+		super(x, y);
+		// TODO Auto-generated constructor stub
+	}
+
 	/*metado um Ctrl + c e Ctrl + v
 	boolean atacar(Jogador oponente) {
 		//Math.abs server para calcular o valor absoluto
@@ -18,6 +23,7 @@ public class Heroi extends Jogador {
 		return false;
 	}
 	Metado 2 */
+	
 	boolean atacar(Jogador oponente) {
 		boolean ataque1 = super.atacar(oponente);
 		boolean ataque2 = super.atacar(oponente);

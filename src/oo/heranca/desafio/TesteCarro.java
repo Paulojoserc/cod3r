@@ -3,7 +3,7 @@ package oo.heranca.desafio;
 public class TesteCarro {
 public static void main(String[] args) {
 	Civic civic = new Civic();
-	Ferrari ferrari = new Ferrari();
+	Ferrari ferrari = new Ferrari(400);
 	
 	
 	System.out.println("Velocidade atual do Civic é: "+civic);
