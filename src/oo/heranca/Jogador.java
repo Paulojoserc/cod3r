@@ -11,7 +11,7 @@ public class Jogador {
 		this.y = y;
 	}
 
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 		//Math.abs server para calcular o valor absoluto
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);
@@ -27,7 +27,7 @@ public class Jogador {
 		return false;
 	}
 	
-	boolean andar(Direcao direcao) {
+	public boolean andar(Direcao direcao) {
 		switch (direcao) {
 		case NORTE:
 		y--;

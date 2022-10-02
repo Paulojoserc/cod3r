@@ -12,7 +12,7 @@ public class Ferrari extends Carro {
 	}
 
 //	@Override
-	//void acelera() {
+	//public void acelera() {
 	//	velocidadeAtual +=15;
 	//}
 }
