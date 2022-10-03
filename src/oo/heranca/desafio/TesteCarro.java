@@ -14,14 +14,16 @@ public static void main(String[] args) {
 	System.out.println("Velocidade atual do Civic é: "+civic);
 	System.out.println("-----------");
 	System.out.println();
-	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
+	ferrari.ligarTurbo();
+	ferrari.ligarAr();
+	
 	ferrari.acelera();
-	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
-	ferrari.acelera();
-	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
-	ferrari.acelera();
-	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
 	ferrari.freia();
+	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
+	ferrari.acelera();
+	ferrari.freia();
+	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
+	ferrari.acelera();
 	System.out.println("Velocidade atual da Ferrari é: "+ferrari);
 	
 }
