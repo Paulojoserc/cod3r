@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	System.out.println();
 	ferrari.ligarTurbo();
 	ferrari.ligarAr();
-	
+	System.out.println(ferrari.velocidadeDoAr());	
 	ferrari.acelera();
 	ferrari.freia();
 	System.out.println("Velocidade atual da Ferrari é: "+ferrari);

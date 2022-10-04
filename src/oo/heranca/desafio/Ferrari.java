@@ -32,7 +32,7 @@ public class Ferrari extends Carro implements Esportivo, Luxo {
 	public void desligarAr() {
 		ligarAr = false;
 	}
-
+	
 	@Override
 	public int getDelta() {
 		if(ligarTurbo && !ligarAr) {
@@ -44,6 +44,8 @@ public class Ferrari extends Carro implements Esportivo, Luxo {
 		}
 		return 15;
 	}
+
+
 	
 //	@Override
 	// public void acelera() {
