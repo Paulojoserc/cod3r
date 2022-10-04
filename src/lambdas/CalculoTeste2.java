@@ -8,5 +8,6 @@ public class CalculoTeste2 {
 
 		System.out.println(calc.exercutar(2, 3));
 		calc = (x, y) -> x * y;
+		System.out.println(calc.exercutar(2, 3));
 	}
 }
