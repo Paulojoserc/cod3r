@@ -23,6 +23,6 @@ public static void main(String[] args) {
 	outrasLangs.parallelStream().forEach(print);
 	
 	//Stream.generate(() -> "a").forEach(print); //infinito
-	Stream.iterate(0, n -> n +1 ).forEach(println); infinito
+	//Stream.iterate(0, n -> n +1 ).forEach(println); infinito
 	}
 }
