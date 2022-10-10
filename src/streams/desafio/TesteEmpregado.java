@@ -19,5 +19,6 @@ public static void main(String[] args) {
 	Function<Empregado, String> tempoDeEmpresa = em -> "Parabéns "+em.getNome() + "! pelo seu tempo dedicado a empresa!";
 	empregados.stream().filter(anos).map(tempoDeEmpresa).forEach(System.out::println);
 	
+	
 }
 }
