@@ -24,6 +24,7 @@ public class DesafioFilter {
 		Predicate<Produto> precoRelevante = p -> p.preco >= 500;
 		
 		Function<Produto, String>chamadaPromocional = p -> "Aproveite! " + p.nome + " por R$:"+p.preco;
-		produto.stream().filter(superPromocao).filter(freteGratis).filter(precoRelevante).map(chamadaPromocional).forEach(System.out::println);
+		produto.stream().filter(superPromocao).filter(freteGratis)
+		.filter(precoRelevante).map(chamadaPromocional).forEach(System.out::println);
 	}
 }
