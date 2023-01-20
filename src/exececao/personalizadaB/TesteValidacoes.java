@@ -1,6 +1,6 @@
 package exececao.personalizadaB;
 
-import exececao.Aluno;
+import _8.exececao.Aluno;
 
 public class TesteValidacoes {
 public static void main(String[] args) {
